@@ -1,0 +1,1261 @@
+
+
+
+header{
+
+	background: black;
+
+position: fixed;
+    height: 50px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+a.nav-active {
+    color:#00A4FF;
+}
+
+header h1{
+position: relative;
+font-family: PetitaBold;
+font-size: 36px;
+color: white;
+
+}
+
+header nav ul {
+	position: relative;
+	margin-top: 0px;
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li a{
+
+position: relative;
+	text-decoration: none;
+	font-family: PetitaLight;
+	color: white;
+	font-size: 25px;
+}
+header nav ul li a:hover{
+	position: relative;
+	color: white;
+	 
+	list-style: none;
+}
+
+
+
+.menu_bar{
+	display: none;
+}
+
+@media screen and (max-width: 1200px){
+
+	.siguenos{
+display: none;
+}
+
+.contenedor{
+	margin-top: 50px;
+}
+
+	header nav{
+		width: 80%;
+		height: 100%;
+		margin: 0 0 0 0;
+		top: -100%; 
+		position: fixed;
+		z-index: 999999;
+		background:#ff8531; 
+		color: white;
+	}
+
+	header nav ul li:first-child{
+		display: none;
+	}
+	
+	header nav ul li a{
+		color: white;
+		text-decoration: none;
+	}
+
+	header nav ul li{
+		display: block;
+		border-bottom: 1px solid rgba(255,255,255,.3);
+		border-width: 100%;
+		color: white;
+		margin-top: 20px;
+	}
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+		background: #250045;
+		z-index: 9999999;
+		color: white;
+		position: fixed;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #250045;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+
+nav ul li{
+
+display: inline-block;
+ font-family: 'Roboto', sans-serif; 
+
+ font-weight: lighter;
+padding: 10px;
+}
+
+nav ul a{
+		color: rgb(55,8,83);
+		 font-size: 24px;
+}
+
+
+/* -----------------------------------------estilo header--------------------------*/
+
+
+
+#space{
+  position: relative;
+  height: 100vh;
+
+  background: #000;
+  background-image: url(http://nickylew.com/testingground/images/clouds.png),
+                    url(http://nickylew.com/testingground/images/twinkling.png),
+                    url(http://nickylew.com/testingground/images/stars.png);
+  animation: spaced 30s linear infinite;
+}
+@keyframes spaced {
+	0% { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  100% { background-position: 1985px 1338px, 1000px 1000px, 2000px 1375px; }
+}
+
+.wrapper {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+/*-----------------------------------estilo espacio ---------------------------------*/
+
+
+
+
+
+.logo{
+margin-top: 100px;
+
+}
+
+.marca{
+color:white;
+	font-family: Julius Sans One;
+	font-size: 50px;
+	margin-top: 50px;
+}
+.especialidad{
+color:white;
+	font-family: Julius Sans One;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+
+
+
+/*------------------------estilo logo -----------------------------------------*/
+
+	@font-face {
+
+    font-family: "Spaceport1i";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("Spaceport1i.ttf") format("ttf"), url("Spaceport1i.ttf") format("truetype");
+
+}
+	@font-face {
+
+    font-family: "New Space";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("New Space.ttf") format("ttf"), url("New Space.ttf") format("truetype");
+
+}
+
+.proyects{
+
+
+	height: 1100px;
+}
+
+.titulo-proyects{
+
+color:black;
+	font-family: Spaceport1i;
+	font-size: 75px;
+	margin-top: 10px;
+
+}
+
+.proyectos1{
+
+	margin-top: 50px;
+}
+.proyectos2{
+
+	margin-top: 50px;
+}
+
+.encabezado-proyectos img{
+
+	margin-top: 25px;
+}
+
+
+/*------------------------estilo proyectos -----------------------------------------*/
+
+#about-me{
+background: black;
+	height: 100vh;
+
+
+}
+.nombre{
+color:white;
+	font-family: Spaceport1;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+
+.descripcion{
+
+	color:white;
+	font-family: PetitaLight;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.linea{
+margin-top: 40px;
+
+}
+.hab{
+
+margin-top: -70px;
+
+}
+
+
+
+
+
+/*------------------------estilo About Me -----------------------------------------*/
+
+
+
+
+	@font-face {
+
+    font-family: "Spaceport1";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("Spaceport1.ttf") format("ttf"), url("Spaceport1.ttf") format("truetype");
+
+}
+
+/*------------------------------------*/
+
+
+
+/* ----------------------------------------------*/
+
+.universe{
+margin-left: -150px;
+margin-bottom: -200px;
+
+}
+
+
+
+#contacto{
+background-color: white;
+  margin-top: 50px;
+  height: 100vh;
+}
+.separarb{
+
+border-bottom-style: solid;
+border-bottom-width: 5px;
+border-bottom-color: black;
+margin-top: 50px; 
+}
+.separarb2{
+  border-bottom-style: solid;
+border-bottom-width: 5px;
+border-bottom-color: black;
+margin-top: 50px;
+width: 400px;
+}
+.tituloContact h1{
+
+  font-family: Spaceport1i;
+font-size: 36px;
+color: black;
+}
+.formulario{
+
+  margin-top: 30px;
+}
+.email{
+
+  margin-top: 10px;
+}
+.subject{
+margin-top: 10px;
+
+}
+.mensaje textarea{
+height: 200px;
+  margin-top: 10px;
+}
+.enviar button{
+width: 540px;
+margin-top: 10px;
+border-style: solid;
+border-color: lightgray;
+border-width: 1px;
+background-color: white;
+font-family: PetitaLight;
+font-size: 18px;
+color: black;
+}
+.tituloFormu h2{
+
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+}
+.tituloFormu p{
+
+  list-style-type: none;
+font-family: PetitaLight;
+font-size: 20px;
+color: black;
+}
+.infoContacto h2{
+
+list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+}
+
+.infoContacto img{
+
+margin-right: -30px;
+}
+
+.infoContacto{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.infoContacto .email{
+  margin-left: 100px;
+}
+
+.infoContacto .emailIcon{
+  margin-left: 60px;
+    margin-right: -90px;
+}
+.direccion p{
+font-family: PetitaLight;
+font-size: 16px;
+color: black;
+margin-top: 10px;
+margin-left: 10px;
+}
+.direccion2 p{
+font-family: PetitaLight;
+font-size: 16px;
+color: black;
+margin-top: 0px;
+margin-left: 10px;
+}
+.seguir{
+  margin-left: 30px;
+}
+.seguir h2{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+}
+
+
+.photoshop{
+
+  margin-left: 30px;
+}
+.photoshop p{
+
+  margin-left: 30px;
+}
+.ae{
+
+  margin-left: 60px;
+}
+.ae p{
+
+  margin-left: 60px;
+}
+.desc ul li{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 18px;
+color: black;
+
+}
+.desc{
+  margin-top: 10px;
+  margin-left: -30px;
+}
+.desc2 ul li{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 18px;
+color: black;
+
+} .desc2{    
+ margin-top: 10px;    position: relative;
+ right: -20px;
+  }
+.desc3 ul li{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 18px;
+color: black;
+
+} .desc3{    
+ margin-top: 10px;     
+ position: relative;
+ right: -50px;
+  }
+
+
+  .aboutme{
+
+    margin-top: 30px;
+  }
+  .infoContacto{
+margin-top: 30px;
+    margin-left: 180px;
+  }
+  .seguir{
+    margin-left: 180px;
+  }
+  .perfil img{
+margin-left: 20px;
+  }
+
+#scene{
+    height: 300px;
+margin-bottom: -50px;
+    margin-left: -100px;
+     }
+/*------------------------------------ Estilos contacto -----------------*/
+
+
+
+.slider img {	
+	width: 100%;
+}
+#presentacion h1{
+font-family: PetitaBold;
+font-size: 36px;
+
+
+}
+#presentacion h2{
+font-family: PetitaLight;
+font-size: 36px;
+
+
+}
+
+.separar{
+border-bottom-style: solid;
+border-bottom-width: 5px;
+border-bottom-color: black;
+margin-top: 50px;
+}
+.separar2{
+border-bottom-style: solid;
+border-bottom-width: 5px;
+border-bottom-color: black;
+margin-top: 50px;
+width: 400px;
+}
+.Aboutme h1{
+font-family: PetitaBold;
+font-size: 36px;
+color: black;
+
+}
+
+
+
+
+.diseno{
+height: 220px;
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.diseno img{
+
+	margin-top: 20px;
+}
+.diseno h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-left: -10px;
+}
+.program{
+height: 220px;
+width: 400px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.program img{
+
+	margin-top: 20px;
+}
+.program h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: 40px;
+}
+.ux{
+height: 220px;
+width: 350px;
+	margin-top: 30px;
+	margin-left: 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.ux img{
+
+	margin-top: 20px;
+}
+.ux h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: 10px;
+}
+
+
+.proyectos{
+
+	margin-top: 30px;
+}
+
+
+
+
+
+/*-----------------------------estilo etherea--------------------- */
+@font-face {
+
+    font-family: "PetitaBold";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("PetitaBold.ttf") format("ttf"), url("PetitaBold.ttf") format("truetype");
+
+}
+.headEtherea{
+
+
+background: black;
+
+}
+.headEtherea h1{
+
+font-family: PetitaLight;
+color: white;
+font-size: 30px;
+margin-left: -50px;
+margin-top: 10px;
+width: 120px;
+}
+.headEtherea h1:hover{
+
+position: relative;
+  color: white;
+
+  list-style: none;
+border-bottom: 2px solid white;
+}
+
+.FondoEtherea{
+
+  height: 3800px;
+background: black;
+}
+
+.logoEtherea{
+
+margin-top: 200px;
+
+
+}
+
+.descripcionEth{
+
+color: white;
+font-family: PetitaLight;
+font-size: 25px;
+margin-top: 70px;
+text-align: center;
+  border-style: solid;
+  border-color: #F3136A;
+
+
+
+}
+
+.mapaEt{
+margin-top: 170px;
+
+}
+
+.interTertu{
+margin-top: 200px;
+border-left-style: solid; 
+border-left-color:#F3136A;
+
+}
+.interTertu h1{
+font-family: PetitaBold;
+color: #F3136A;
+font-size: 40px;
+text-decoration: underline;
+}
+
+.interTertu p{
+font-family: PetitaLight;
+color: white;
+font-size: 25px;
+text-align: justify;
+}
+
+.titlePoster{
+font-family: PetitaBold;
+color: #F3136A;
+font-size: 45px;
+text-decoration: underline;
+
+
+
+}
+
+.posterTarget{
+
+margin-top: 100px;
+
+}
+
+.posterTarget img{
+margin-top: 50px;
+
+}
+
+.textures{
+
+  margin-top: 100px;
+}
+
+.text-textures{
+
+  margin-top: 100px;
+  border-left-style: solid; 
+border-left-color:#F3136A;
+height: 300px;
+}
+
+.text-textures h1{
+font-family: PetitaBold;
+color: #F3136A;
+font-size: 45px;
+text-decoration: underline;
+}
+
+.text-textures p{
+font-family: PetitaLight;
+color: white;
+font-size: 25px;
+text-align: justify;
+
+}
+.videoEth{
+
+  margin-top: 60px;
+}
+
+.titulo-flujo{
+
+font-family: PetitaBold;
+color: #F3136A;
+font-size: 45px;
+text-decoration: underline;
+
+}
+.flujo h1{
+
+margin-top: 100px;
+
+}
+/*-----------------------------------------------------------------*/
+
+/*------------------------------------Estilo Warrior Games------------------------------ */
+
+
+
+
+@font-face {
+
+    font-family: "Roman SD";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("Roman SD.ttf") format("ttf"), url("Roman SD.ttf") format("truetype");
+
+}
+
+
+.container-warrior{
+
+background: #F0D5A8;
+
+}
+.container-logo img{
+
+margin-top: 80px;
+
+
+}
+
+.container-logo{
+
+background: #F0D5A8;
+
+height: 700px;
+
+
+}
+.brandMed {
+
+margin-top: 60px;
+
+
+}
+
+.brandMed p {
+
+margin-top: 20px;
+
+font-family: PetitaLight;
+font-size: 25px;
+margin-bottom: 40px;
+
+}
+.brand{
+
+  background: #0D1218;
+  height: 100px;
+}
+
+.titulo-brand{
+font-family: Roman SD;
+font-size: 60px;
+color:white;
+
+}
+
+.expl-logo{
+
+  font-family: PetitaLight;
+font-size: 35px;
+color:black;
+}
+
+.color-tip img{
+
+margin-top: 40px;
+
+}
+
+.colores img{
+margin-top: 100px;
+
+}
+/*------------------------------------Estilo Warrior Games------------------------------ */
+/*------------------------------------Estilo Gallerie------------------------------ */
+.FondoGallerie{
+
+  height: 2800px;
+background: white;
+
+}
+.logoGallerie{
+
+margin-top: 100px;
+
+}
+
+.descripcion-gallerie{
+
+font-family: 'Montserrat', sans-serif;
+font-size: 35px;
+color :#282828;
+margin-top: 70px;
+margin-bottom: 70px;
+text-align: center;
+}
+
+
+
+.carousel-inner{
+
+	margin-top: 50px;
+}
+
+
+
+
+
+
+/*------------------------------------Estilo Gallerie------------------------------ */
+
+/*------------------------------------Estilo Peek------------------------------ */
+
+	@font-face {
+
+    font-family: "PetitaLight";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("PetitaLight.ttf") format("ttf"), url("PetitaLight.ttf") format("truetype");
+
+}
+
+	@font-face {
+
+    font-family: "papercuts-2";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("papercuts-2.ttf") format("ttf"), url("papercuts-2.ttf") format("truetype");
+
+}
+.FondoPeek{
+
+  height: 7600px;
+background: #700087;
+
+}
+.logoPeek{
+
+	margin-top: 50px;
+}
+.descripcionPeek{
+
+font-family: PetitaLight;
+font-size: 35px;
+color :white;
+margin-top: 70px;
+margin-bottom: 70px;
+text-align: center;
+}
+
+.titulo-peek{
+font-family: papercuts-2;
+font-size: 90px;
+color:#700087;
+margin-top: 10px;
+}
+
+.brandPeek{
+
+  background:white;
+  height: 100px;
+  margin-top: 50px;
+}
+.logoidea{
+
+	margin-top: 50px;
+}
+.ideaPeek p{
+font-family: PetitaLight;
+font-size: 35px;
+color :white;
+
+text-align: center;
+
+}
+.ideaPeek{
+
+	margin-top: 50px;
+}
+
+
+.text-Peek {
+
+border-left-style: solid;
+border-left-color: #7FF4A6;
+margin-top: 100px;
+
+}
+.text-Peek h1{
+
+font-family: papercuts-2;
+font-size: 80px;
+color:white;
+margin-top: 10px;
+
+}
+
+.text-Peek p{
+
+font-family: PetitaLight;
+font-size: 30px;
+color:white;
+margin-top: 30px;
+text-align: justify;
+
+}
+
+.text-Peek2 {
+
+border-right-style: solid;
+border-right-color: #7FF4A6;
+margin-top: 100px;
+
+}
+.text-Peek2 h1{
+
+font-family: papercuts-2;
+font-size: 80px;
+color:white;
+margin-top: 10px;
+
+}
+
+.text-Peek2 p{
+
+font-family: PetitaLight;
+font-size: 30px;
+color:white;
+margin-top: 30px;
+text-align: justify;
+
+}
+/*------------------------------------Estilo Peek------------------------------ */
+
+/*------------------------------------Estilo Monuks------------------------------ */
+.FondoMonuks{
+
+
+
+  height: 9600px;
+background-image: url(img/texturaMonuks.jpg);
+}
+.logoMonuks{
+
+margin-top: 90px;
+}
+
+.descripcionMonuks{
+
+	font-family: PetitaLight;
+font-size: 35px;
+color :#654268;
+margin-top: 70px;
+margin-bottom: 70px;
+text-align: center;
+}
+
+.brandMonuks{
+
+  background:#654268;
+  height: 100px;
+  margin-top: 50px;
+
+}
+
+.titulo-Monuks{
+font-family: papercuts-2;
+font-size: 90px;
+color:#97B734;
+margin-top: 10px;
+
+}
+
+.contraportada{
+
+	margin-top: 50px;
+}
+.notebook{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.text-Monuks {
+
+border-left-style: solid;
+border-left-color: #654268;
+margin-top: 50px;
+
+}
+.text-Monuks h1{
+
+font-family: papercuts-2;
+font-size: 80px;
+color:#87A604;
+margin-top: 10px;
+
+}
+
+.text-Monuks p{
+
+font-family: PetitaLight;
+font-size: 30px;
+color:#654268;
+margin-top: 30px;
+text-align: justify;
+
+}
+
+.characterTitle{
+font-family: papercuts-2;
+font-size: 60px;
+color:#87A604;
+margin-top: 10px;
+
+}
+
+.buttons1{
+
+	margin-top: 50px;
+}
+
+.life-bar{
+
+	margin-top: 100px;
+}
+
+.ButtonTitle{
+
+
+	font-family: papercuts-2;
+font-size: 90px;
+color:#87A604;
+margin-top: 0px;
+margin-left: 140px;
+}
+
+.tagButtons{
+
+		margin-top: 20px;
+}
+.ButtonTitle2{
+
+
+	font-family: papercuts-2;
+font-size: 90px;
+color:#87A604;
+margin-top: 0px;
+margin-left: 190px;
+}
+
+.powerButtons{
+
+	margin-top: 80px;
+}
+
+.PowerTitle{
+
+
+	font-family: papercuts-2;
+font-size: 90px;
+color:#87A604;
+margin-top: -80px;
+margin-left: 80px;
+}
+
+.bombdes{
+
+font-family: PetitaLight;
+font-size: 30px;
+color:#654268;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.FreezeTitle{
+
+
+	font-family: papercuts-2;
+font-size: 90px;
+color:#87A604;
+margin-top: -80px;
+margin-left: 60px;
+}
+/*------------------------------------Estilo Monuks------------------------------ */
+
+/*------------------------------------Estilo Horroroid------------------------------ */
+.horroroid{
+
+	background: black;
+	height: 7200px;
+}
+.Title-horroroid{
+font-family: PetitaBold;
+color: white;
+font-size: 45px;
+margin-top: 50px;
+
+}
+.subtitle-horror{
+font-family: PetitaLight;
+color: #F1F40D;
+font-size: 25px;
+margin-top: 10px;
+
+}
+.explain-horror{
+
+	font-family: PetitaLight;
+color: white;
+font-size: 20px;
+margin-top: 10px;
+text-align: center;
+}
+
+.PlotHorror{
+
+	 background:#46275C;
+  height: 100px;
+  margin-top: 150px;
+}
+@font-face {
+
+    font-family: "horroroidbold";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("horroroidbold.ttf") format("ttf"), url("horroroidbold.ttf") format("truetype");
+
+}
+.gamePlot{
+
+font-family: horroroidbold;
+color: white;
+font-size: 70px;
+
+margin-top: 10px;
+}
+.skull{
+
+margin-top: 30px;
+
+}
+.explain-horror2{
+
+	font-family: PetitaLight;
+color: white;
+font-size: 30px;
+margin-top: 10px;
+text-align: center;
+}
+.plot{
+
+	margin-top: 30px;
+	margin-bottom: -40px;
+}
+
+.subtitle-horror2{
+font-family: PetitaLight;
+color: #F1F40D;
+font-size: 35px;
+margin-top: 50px;
+
+}
+.huesos{
+
+	margin-top: 50px;
+}
+.huesos-img{
+
+margin-left: 70px;
+
+}
+/*------------------------------------Estilo Horroroid------------------------------ */
