@@ -13,7 +13,8 @@ position: fixed;
 }
 
 a.nav-active {
-    color:#00A4FF;
+    color:#00A0E6;
+    text-decoration: none;
 }
 
 header h1{
@@ -40,8 +41,8 @@ position: relative;
 }
 header nav ul li a:hover{
 	position: relative;
-	color: white;
-	 
+	color: #00A0E6;
+	 text-decoration: none;
 	list-style: none;
 }
 
@@ -83,8 +84,7 @@ display: none;
 
 	header nav ul li{
 		display: block;
-		border-bottom: 1px solid rgba(255,255,255,.3);
-		border-width: 100%;
+		
 		color: white;
 		margin-top: 20px;
 	}
@@ -215,13 +215,29 @@ color:white;
     src: local("?"), url("New Space.ttf") format("ttf"), url("New Space.ttf") format("truetype");
 
 }
+@media screen and (max-width: 1800px){
+.titulo-proyects{
 
-.proyects{
+color:black;
+	font-family: Spaceport1i;
+	font-size: 50px;
+	margin-top: 20px;
 
-
-	height: 1100px;
 }
 
+}
+@media screen and (max-width: 1300px){
+.titulo-proyects{
+
+color:black;
+	font-family: Spaceport1i;
+	font-size: 40px;
+	margin-top: 20px;
+
+}
+
+}
+@media screen and (min-width: 1800px){
 .titulo-proyects{
 
 color:black;
@@ -231,6 +247,36 @@ color:black;
 
 }
 
+}
+
+
+@media screen and (min-width: 1500px){
+.proyects{
+
+
+	height: 1100px;
+}
+
+
+}
+@media screen and (max-width: 1500px){
+.proyects{
+
+
+	height: 900px;
+}
+
+
+}
+@media screen and (max-width: 1200px){
+.proyects{
+
+
+	height: 700px;
+}
+
+
+}
 .proyectos1{
 
 	margin-top: 50px;
@@ -244,6 +290,17 @@ color:black;
 
 	margin-top: 25px;
 }
+
+
+.projectHover:hover{
+	transform: translate(0px, -20px);
+	-webkit-transform: translate(0px, -20px);
+	-moz-transform: translate(0px, -20px);
+	-ms-transform: translate(0px, -20px);
+
+	transition: .1s ease-in;
+}
+
 
 
 /*------------------------estilo proyectos -----------------------------------------*/
@@ -343,7 +400,11 @@ color: black;
 .formulario{
 
   margin-top: 30px;
+  margin-left: -150px;
 }
+
+
+
 .email{
 
   margin-top: 10px;
@@ -402,9 +463,29 @@ margin-right: -30px;
   margin-left: 100px;
 }
 
+@media screen and (min-width: 1200px){
 .infoContacto .emailIcon{
   margin-left: 60px;
     margin-right: -90px;
+}
+.infoContacto .email{
+  margin-left: 100px;
+}
+.direccion p{
+font-family: PetitaLight;
+font-size: 16px;
+color: black;
+margin-top: 10px;
+margin-left: -75px;
+}
+}
+@media screen and (max-width: 1200px){
+.infoContacto .emailIcon{
+  margin-left: 0px;
+    margin-right: -90px;
+}
+.infoContacto .email{
+  margin-left: 90px;
 }
 .direccion p{
 font-family: PetitaLight;
@@ -413,6 +494,9 @@ color: black;
 margin-top: 10px;
 margin-left: 10px;
 }
+}
+
+
 .direccion2 p{
 font-family: PetitaLight;
 font-size: 16px;
@@ -496,6 +580,7 @@ margin-top: 30px;
 margin-left: 20px;
   }
 
+
 #scene{
     height: 300px;
 margin-bottom: -50px;
@@ -542,8 +627,7 @@ color: black;
 }
 
 
-
-
+@media screen and (min-width: 1200px){
 .diseno{
 height: 220px;
 	margin-top: 30px;
@@ -598,6 +682,72 @@ font-family: Julius Sans One;
 font-size: 16px;
 color: white;
 margin-top: 10px;
+}
+
+
+
+}
+
+@media screen and (max-width: 1200px){
+.diseno{
+height: 220px;
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.diseno img{
+
+	margin-top: 20px;
+}
+.diseno h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-left: 5px;
+}
+.program{
+height: 220px;
+width: 330px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.program img{
+
+	margin-top: 20px;
+}
+.program h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: 25px;
+}
+.ux{
+height: 220px;
+width: 330px;
+	margin-top: 30px;
+	margin-left: 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.ux img{
+
+	margin-top: 0px;
+}
+.ux h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: -10px;
+margin-left: 10px;
+}
+
+
+
 }
 
 
@@ -666,8 +816,7 @@ font-family: PetitaLight;
 font-size: 25px;
 margin-top: 70px;
 text-align: center;
-  border-style: solid;
-  border-color: #F3136A;
+
 
 
 
@@ -764,6 +913,24 @@ text-decoration: underline;
 margin-top: 100px;
 
 }
+
+@media screen and (max-width: 1200px){
+
+	iframe{
+
+	width: 1000px;
+	height: 700px;
+}
+}
+@media screen and (min-width: 1200px){
+
+	iframe{
+
+	width: 1200px;
+	height: 700px;
+}
+}
+
 /*-----------------------------------------------------------------*/
 
 /*------------------------------------Estilo Warrior Games------------------------------ */
@@ -884,7 +1051,12 @@ text-align: center;
 
 
 
+.titulo-Gallerie{
+font-family: PetitaBold;
+font-size: 60px;
+color:white;
 
+}
 
 /*------------------------------------Estilo Gallerie------------------------------ */
 
@@ -1015,6 +1187,24 @@ margin-top: 30px;
 text-align: justify;
 
 }
+
+
+@media screen and (max-width: 1200px){
+
+	iframe{
+
+	width: 1000px;
+	height: 700px;
+}
+}
+@media screen and (min-width: 1200px){
+
+	iframe{
+
+	width: 1200px;
+	height: 700px;
+}
+}
 /*------------------------------------Estilo Peek------------------------------ */
 
 /*------------------------------------Estilo Monuks------------------------------ */
@@ -1099,16 +1289,13 @@ margin-top: 10px;
 
 }
 
-.buttons1{
 
-	margin-top: 50px;
-}
 
-.life-bar{
 
-	margin-top: 100px;
-}
 
+
+
+@media screen and (min-width: 1200px){
 .ButtonTitle{
 
 
@@ -1117,11 +1304,6 @@ font-size: 90px;
 color:#87A604;
 margin-top: 0px;
 margin-left: 140px;
-}
-
-.tagButtons{
-
-		margin-top: 20px;
 }
 .ButtonTitle2{
 
@@ -1132,6 +1314,67 @@ color:#87A604;
 margin-top: 0px;
 margin-left: 190px;
 }
+.life-bar{
+
+	margin-top: 100px;
+}
+.buttons1{
+
+	margin-top: 50px;
+}
+.tagButtons{
+
+		margin-top: 20px;
+}
+iframe{
+
+	width: 1200px;
+	height: 700px;
+}
+}
+
+@media screen and (max-width: 1200px){
+.ButtonTitle{
+
+
+	font-family: papercuts-2;
+font-size: 70px;
+color:#87A604;
+margin-top: 0px;
+margin-left: 30px;
+}
+.ButtonTitle2{
+
+
+	font-family: papercuts-2;
+font-size: 70px;
+color:#87A604;
+margin-top: 0px;
+margin-left: 190px;
+}	
+.life-bar{
+
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.buttons1{
+
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.tagButtons{
+
+		margin-top: 20px;
+			margin-left: 150px;
+}
+
+iframe{
+
+	width: 1000px;
+	height: 700px;
+}
+}
+
 
 .powerButtons{
 
@@ -1167,6 +1410,7 @@ color:#87A604;
 margin-top: -80px;
 margin-left: 60px;
 }
+
 /*------------------------------------Estilo Monuks------------------------------ */
 
 /*------------------------------------Estilo Horroroid------------------------------ */
