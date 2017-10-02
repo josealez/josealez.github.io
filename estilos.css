@@ -167,19 +167,29 @@ nav ul a{
 /*-----------------------------------estilo espacio ---------------------------------*/
 
 
+	@font-face {
 
+    font-family: "UpheavalPro";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("UpheavalPro.ttf") format("ttf"), url("UpheavalPro.ttf") format("truetype");
+
+}
 
 
 .logo{
-margin-top: 100px;
+margin-top: 250px;
 
 }
 
 .marca{
 color:white;
-	font-family: Julius Sans One;
-	font-size: 50px;
-	margin-top: 50px;
+	font-family: UpheavalPro;
+	font-size: 70px;
+	margin-top: 30px;
 }
 .especialidad{
 color:white;
@@ -580,12 +590,21 @@ margin-top: 30px;
 margin-left: 20px;
   }
 
+@media screen and (min-width: 1600px){
 
-#scene{
+	#scene{
     height: 300px;
 margin-bottom: -50px;
     margin-left: -100px;
      }
+}
+@media screen and (max-width: 1600px){
+
+	.universe{
+visibility: hidden;
+     }
+
+}
 /*------------------------------------ Estilos contacto -----------------*/
 
 
