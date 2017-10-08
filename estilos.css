@@ -315,12 +315,7 @@ color:black;
 
 /*------------------------estilo proyectos -----------------------------------------*/
 
-#about-me{
-background: black;
-	height: 100vh;
 
-
-}
 .nombre{
 color:white;
 	font-family: Spaceport1;
@@ -348,8 +343,45 @@ margin-top: -70px;
 }
 
 
+@media screen and (max-height: 850px){
+
+#about-me{
+background: black;
+	height: 130vh;
 
 
+}
+#space2{
+  position: relative;
+  height: 130vh;
+
+  background: #000;
+  background-image: url(http://nickylew.com/testingground/images/clouds.png),
+                    url(http://nickylew.com/testingground/images/twinkling.png),
+                    url(http://nickylew.com/testingground/images/stars.png);
+  animation: spaced 30s linear infinite;
+}
+}
+
+@media screen and (min-height: 850px){
+
+#about-me{
+background: black;
+	height: 100vh;
+
+
+}
+#space2{
+  position: relative;
+  height: 100vh;
+
+  background: #000;
+  background-image: url(http://nickylew.com/testingground/images/clouds.png),
+                    url(http://nickylew.com/testingground/images/twinkling.png),
+                    url(http://nickylew.com/testingground/images/stars.png);
+  animation: spaced 30s linear infinite;
+}
+}
 
 /*------------------------estilo About Me -----------------------------------------*/
 
@@ -600,8 +632,9 @@ margin-bottom: -50px;
 }
 @media screen and (max-width: 1600px){
 
-	.universe{
-visibility: hidden;
+	#scene{
+ visibility: hidden;
+ width: 0px;
      }
 
 }
