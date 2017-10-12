@@ -15,6 +15,7 @@
     
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
   <link rel="shortcut icon" type="image/ico" href="img/loguito.png"/>
+  <script src="js/responsivebar.js"></script>
  <script src="js/jquery-1.9.1.min.js"></script>
     <script src='js/jquery.scrollto.js'></script>
 <script type="text/javascript">
@@ -94,16 +95,43 @@ $(document).ready(function(){
 });
 
   </script>
+
 	</head>
 
 	<body>
-<header>
+  
+ <section class="navigation">
+      <div class="nav-container">
+      <div id="nav-anchor"></div>
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+          <ul class="nav-list">
+            <li>
+              <a href="#space">Home</a>
+              
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#about-me">About Me</a>
+             
+            </li>
+            <li>
+              <a href="#contacto">Contact</a>
+            </li>
+          
+          </ul>
+        </nav>
+      </div>
+  </section>
+<!---<header>
 		
 		<div class="container">
 			<div id="nav-anchor"></div>
 			<nav >
 
-				<div class=" nav-bar col-lg-6 col-md-6 col-lg-offset-8">
+				<div class=" nav-bar col-lg-6 col-md-6 col-xs-6 col-lg-offset-8">
 
 					<ul>
 						
@@ -119,17 +147,18 @@ $(document).ready(function(){
 		</div>
 	</header>
 <!-- logo/espacio -->
+
 <div id="space">
 
 <div class="img-container">
 
-<img src="img/LogoMarcaJose.png"  class="img-responsive col-lg-4 col-md-4 col-md-offset-4 col-lg-offset-4 logo ">
+<img src="img/LogoMarcaJose.png"  class="img-responsive col-lg-4 col-md-4 col-md-offset-4 col-lg-offset-4 col-xs-12 logo ">
 
-<div class="col-lg-12 col-md-12 text-center">
+<div class="col-lg-12 col-md-12 col-xs-12 text-center">
 <h1 class="marca">Josealez Design</h1>
 </div>
 
-<div class="col-lg-12 col-md-12 text-center">
+<div class="col-lg-12 col-md-12 col-xs-12 text-center">
 <h2 class="especialidad" >UX/UI Designer - Videogames Developer - Web Designer</h2>
 </div>
 </div>
@@ -144,28 +173,28 @@ $(document).ready(function(){
 
 <div id="projects">
 <div class="container-fluid proyects">
-<div class="col-lg-12 col-md-12 text-center encabezado-proyectos">
-<img class="col-lg-3 img-responsive col-md-3   col-lg-offset-1" src="img/titulo-rayas.png">
-<h1 class=" col-lg-4 col-md-5 titulo-proyects ">My Projects</h1>
-<img class="col-lg-3 img-responsive col-md-3 " src="img/titulo-rayas2.png">
+<div class="col-lg-12 col-md-12 col-xs-12 text-center encabezado-proyectos">
+<img class="rayas col-lg-3 img-responsive col-md-3 col-xs-1   col-lg-offset-1" src="img/titulo-rayas.png">
+<h1 class=" col-lg-4 col-md-5 col-xs-12 titulo-proyects ">My Projects</h1>
+<img class="rayas col-lg-3 img-responsive col-md-3 col-xs-1 " src="img/titulo-rayas2.png">
 </div>
 
-<div class="proyectos1 col-lg-12 col-md-12 col-sm-12">
+<div class="proyectos1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-  <a href="Monuks.html"><img class="col-lg-3 col-md-3 img-responsive projectHover" src="img/MonukVisual.jpg"  /></a>
-
-
-
+  <a href="Monuks.html"><img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover" src="img/MonukVisual.jpg"  /></a>
 
 
 
-  <a href="Etherea.html"><img class="col-lg-3 col-md-3 img-responsive projectHover "src="img/EthereaVisual.jpg"  /></a>
+
+
+
+  <a href="Etherea.html"><img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover "src="img/EthereaVisual.jpg"  /></a>
   
-  <a href="Gallerie.html"><img class="col-lg-3 col-md-3 img-responsive projectHover"src="img/GallerieVisual.jpg"  /></a>
+  <a href="Gallerie.html"><img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover"src="img/GallerieVisual.jpg"  /></a>
 
 
-  <a href="Horroroid.html"> <img class="col-lg-3 col-md-3 img-responsive projectHover"src="img/HorroroidVisual.jpg"  /></a>
+  <a href="Horroroid.html"> <img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover"src="img/HorroroidVisual.jpg"  /></a>
 
 </div>
 
@@ -174,16 +203,16 @@ $(document).ready(function(){
 
 
 
-<div class="proyectos2 col-lg-12 col-md-12">
+<div class="proyectos2 col-lg-12 col-md-12 ">
 
 
- <a href="Peek-a-Word.html"><img class="col-lg-3 col-md-3 img-responsive projectHover"src="img/Peek-a-wordVisual.jpg"  /></a> 
+ <a href="Peek-a-Word.html"><img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover"src="img/Peek-a-wordVisual.jpg"  /></a> 
  
 
 
  
 
-  <a href="Warrior Games.html"><img class="col-lg-3 col-md-3 img-responsive projectHover"src="img/warriorGamesVisual.jpg"  /></a>
+  <a href="Warrior Games.html"><img class="col-lg-3 col-md-3 col-xs-12 img-responsive projectHover"src="img/warriorGamesVisual.jpg"  /></a>
 
 
 
@@ -199,26 +228,26 @@ $(document).ready(function(){
 <div id="about-me">
 <div id="space2">
 <div class="container">
-<div class="col-lg-8 col-md-8">
+<div class="col-lg-8 col-md-8 col-xs-12">
 <h1 class="nombre">About Me</h1>
 
 </div>
-<div class="col-lg-6 col-md-6">
+<div class="col-lg-6 col-md-6 col-xs-12">
 <p class="descripcion">Hi! My name is Jose Alejandro Erazo and I'm from Cali, Colombia.I'm a last year Interactive Media Design student focused on Game development and design, UX/UI design and Web/App Design. I pictured myself as a creative person who always came up with innovative ideas inspired in my daily life. </p>
 <p class="descripcion">I speak three languages: spanish, english and french. As hobbies, I like to watch many movies and Tv series, play videogames, learn many diferent things. </p>
 
 
 
 	</div>
-<img  class="col-lg-12 linea" src="img/linea.png">
-<div class= "hab col-lg-12">
+<img  class="col-lg-12 col-xs-12 linea" src="img/linea.png">
+<div class= "hab col-lg-12 col-xs-12">
   <h1 class="nombre">Habilities</h1>
 
-      <div class=" col-lg-4 col-md-4 row">
+      <div class=" col-lg-4 col-md-4 col-xs-12 row">
          
         <div class="diseno option animated fadeInRight">
-          <img class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2" src="img/pc.png">
-          <div class="col-lg-5 col-md-7 col-lg-offset-4 col-md-offset-3 row">
+          <img class="col-lg-6 col-md-8 col-xs-8 col-lg-offset-3 col-md-offset-2 col-xs-8 col-xs-offset-2" src="img/pc.png">
+          <div class="col-lg-5 col-md-7 col-lg-offset-4 col-md-offset-3 col-xs-7 col-xs-offset-3 row">
 
             <h3 >Web Design</h3>
 
@@ -226,10 +255,10 @@ $(document).ready(function(){
         </div><!-- cierre diseño -->
 
       </div><!-- columnas primer especialidad -->
-      <div class="col-lg-4 col-md-4 row">
+      <div class="col-lg-4 col-md-4 col-xs-12 row">
         <div class="program option animated fadeIn">
-          <img class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2" src="img/control.png">
-          <div class="col-lg-8 col-md-7 col-lg-offset-3 col-md-offset-3 row">
+          <img class="col-lg-6 col-md-8 col-xs-8 col-lg-offset-3 col-md-offset-2 col-xs-offset-2" src="img/control.png">
+          <div class="col-lg-8 col-md-7 col-xs-9 col-lg-offset-3 col-md-offset-3 col-xs-offset-2 row">
             
             <h3 >Game Development</h3>
 
@@ -237,10 +266,10 @@ $(document).ready(function(){
         </div><!-- cierre diseño -->
 
       </div><!-- columnas primer especialidad -->
-      <div class="col-lg-4 col-md-4 row">
+      <div class="col-lg-4 col-md-4 col-xs-12 row">
         <div class="ux option animated fadeInLeft">
-          <img class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2" src="img/ux.png">
-          <div class="col-lg-6 col-md-7 col-lg-offset-4 col-md-offset-3 row">
+          <img class="col-lg-6 col-md-8 col-xs-8 col-lg-offset-3 col-md-offset-2 col-xs-offset-2" src="img/ux.png">
+          <div class="col-lg-6 col-md-7 col-xs-7 col-lg-offset-4 col-md-offset-3 col-xs-offset-3 row">
             
             <h3 >UX/UI Design</h3>
 
@@ -255,7 +284,7 @@ $(document).ready(function(){
 <div id="contacto">
 					<section>
 						<div class="container">
-							<div class="col-lg-4 col-md-4 row">
+							<div class="col-lg-4 col-md-4 col-xs-4 row">
 								<div class="separarb">
 
 
@@ -263,7 +292,7 @@ $(document).ready(function(){
 
 
 							</div><!-- cierre columnas -->
-							<div class="col-lg-4 col-md-4 row">
+							<div class="col-lg-4 col-md-4 col-xs-12 row">
 								<div class="tituloContact">
 									<h1 class="text-center">Contact</h1>
 
@@ -273,7 +302,7 @@ $(document).ready(function(){
 
 
 							</div><!-- cierre columnas aboutme  -->
-							<div class="col-lg-4 col-md-4 row">
+							<div class="col-lg-4 col-md-4 col-xs-4 row">
 								<div class="separarb2">
 
 
@@ -287,24 +316,24 @@ $(document).ready(function(){
 
 						<div class="container">
 							
-							<div class="col-lg-6 col-md-6  row">
+							<div class="col-lg-6 col-md-6 col-xs-12  row">
 
 								<div class="formulario">
-									<div class="tituloFormu">
-										<h2 class="text-center">I'm here:</h2>
+									<div class="tituloFormu ">
+										<h2 class="text-center ">I'm here:</h2>
 
 									</div><!-- cierre titulo -->
                   <div class="tituloFormu">
-                    <p class="text-center">You can find me in Cali, Colombia</p>
+                    <p class="text-center ">You can find me in Cali, Colombia</p>
 
                   </div>
-								<img class="img-responsive col-lg-6 col-md-6 col-md-offset-3 col-lg-offset-3" src="img/mapa.png">
+								<img class="img-responsive col-lg-6 col-md-6 col-xs-6 col-md-offset-3 col-lg-offset-3 col-xs-offset-5" src="img/mapa.png">
 									
 								</div><!-- cierre div formulario -->
 							
 							</div><!-- columnas formulario -->
 
-							<div class="col-lg-6 col-md-6 row">
+							<div class="col-lg-6 col-md-6 col-xs-12 row">
 								<div class="infoContacto">
 									<h2 class="text-center">Contact Me!:</h2>
 									
@@ -312,14 +341,14 @@ $(document).ready(function(){
 								</div><!-- cierre infocontact -->
 
 							</div><!-- cierre columnas info -->
-							<div class="col-lg-6 col-md-6 row">
+							<div class="col-lg-6 col-md-6 col-xs-12 row">
 								<div class="infoContacto">
 
 						
-										<img class="img-responsive col-lg-2  col-lg-offset-2 col-md-3" src="img/phone.png">
+										<img class="phone img-responsive col-lg-2  col-lg-offset-2 col-md-3 col-xs-6" src="img/phone.png">
 
 								
-									<div class="col-lg-8 col-md-9 col-md-offset-1 row">
+									<div class="col-lg-8 col-md-9 col-xs-9 col-md-offset-1 row">
 										<div class="direccion">
 											<p class="text-center">6679604-3006742536</p>
 										</div><!-- cierre direccion -->
@@ -329,14 +358,14 @@ $(document).ready(function(){
 								</div><!-- cierre infocontact -->
 
 							</div><!-- cierre columnas info -->
-							<div class="col-lg-6 col-md-6 row">
+							<div class="col-lg-6 col-md-6 col-xs-12 row">
 								<div class="infoContacto">
 
 									
-										<img class="img-responsive emailIcon col-lg-2 col-md-3" src="img/email.png">
+										<img class="img-responsive emailIcon col-lg-2 col-md-3 col-xs-6" src="img/email.png">
 
 									
-									<div class="col-lg-8 col-md-8 row">
+									<div class="col-lg-8 col-md-8 col-xs-6 row">
 										<div class="direccion2">
 											<p class="text-center email ">josealez12@hotmail.com</p>
 										</div><!-- cierre direccion -->
@@ -347,22 +376,14 @@ $(document).ready(function(){
 
 							</div><!-- cierre columnas info -->
 
-							<div class="col-lg-6 col-md-6 row">
+							<div class="col-lg-6 col-md-6 col-xs-12 row">
 								<div class="seguir">
 									<h2 class="text-center">More of me:</h2>
-<a href=""><img class="img-responsive col-lg-4 col-md-4 col-md-offset-2 col-lg-offset-2" src="img/linked.png"></a>
-<a href=""><img class="img-responsive col-lg-4 col-md-4" src="img/behance.png"></a>
+<a href=""><img class="img-responsive col-lg-4 col-md-4 col-md-offset-2 col-lg-offset-2 col-xs-12 linked" src="img/linked.png"></a>
+<a href=""><img class="img-responsive col-lg-4 col-md-4 col-xs-12  behance" src="img/behance.png"></a>
 								</div><!-- cierre seguir -->
 							</div><!-- cierre columnas info -->
-							<div class="col-lg-6 col-md-6 row">
-								<div class="seguir">
-								<span class='st_facebook_large' displayText='Facebook'></span>
-<span class='st_twitter_large' displayText='Tweet'></span>
-<span class='st_pinterest_large' displayText='Pinterest'></span>
-<span class='st_email_large' displayText='Email'></span>
-
-								</div><!-- cierre seguir -->
-							</div><!-- cierre columnas info -->
+						
 
 <div class=" universe">
   <div class="universe-container">

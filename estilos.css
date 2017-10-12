@@ -1,7 +1,112 @@
 
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
 
 
-header{
+
+.navigation {
+  width: 100%;
+  height: 70px;
+  background: black;
+  font-family: PetitaLight;
+  color: white;
+  position: fixed;
+  z-index: 100;
+
+}
+
+
+@media screen and (min-width: 1000px){
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+	}
+@media screen and (max-width: 1000px){
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+	}
+.navigation a:hover {
+  color: #24BCA4;
+  text-decoration: none;
+}
+
+
+
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 0px;
+
+}
+
+nav {
+  float: right;
+  position: relative;
+  display: inline-block;
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  display: inline;
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  color: #a9a9a9;
+  padding: 0 20px;
+  line-height: 70px;
+  background: black;
+}
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li > a:hover {
+ 
+  color: #ffffff;
+}
+nav ul li > a:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  width: 190px;
+}
+nav ul li ul li a {
+  background: #262626;
+  display: block;
+  padding: 15px;
+  line-height: 20px;
+  z-index: 1;
+}
+nav ul li ul li a:hover {
+  background: #519ae3;
+  color: black;
+}
+
+
+
+/*header{
 
 	background: black;
 
@@ -17,13 +122,6 @@ a.nav-active {
     text-decoration: none;
 }
 
-header h1{
-position: relative;
-font-family: PetitaBold;
-font-size: 36px;
-color: white;
-
-}
 
 header nav ul {
 	position: relative;
@@ -48,9 +146,7 @@ header nav ul li a:hover{
 
 
 
-.menu_bar{
-	display: none;
-}
+
 
 @media screen and (max-width: 1200px){
 
@@ -58,9 +154,6 @@ header nav ul li a:hover{
 display: none;
 }
 
-.contenedor{
-	margin-top: 50px;
-}
 
 	header nav{
 		width: 80%;
@@ -89,27 +182,9 @@ display: none;
 		margin-top: 20px;
 	}
 
-	.menu_bar{
-		display: block;
-		width: 100%;
-		background: #250045;
-		z-index: 9999999;
-		color: white;
-		position: fixed;
-	}
+	
 
-	.menu_bar .bt-menu{
-		display: block;
-		padding: 20px;
-		background: #250045;
-		color: white;
-		text-decoration: none;
-		font-weight: bold;
-		font-size: 25px;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+
 }
 
 
@@ -180,9 +255,20 @@ nav ul a{
 }
 
 
+
+
+@media screen and (max-width: 1000px){
+.logo{
+margin-top: 150px;
+
+}
+}
+
+@media screen and (min-width: 1000px){
 .logo{
 margin-top: 250px;
 
+}
 }
 
 .marca{
@@ -223,6 +309,22 @@ color:white;
     font-weight: normal;
 
     src: local("?"), url("New Space.ttf") format("ttf"), url("New Space.ttf") format("truetype");
+
+}
+
+@media screen and (max-width: 1000px){
+.rayas{
+
+	visibility: none;
+	width: 0px;
+}
+
+}
+@media screen and (min-width: 1000px){
+.rayas{
+
+	
+}
 
 }
 @media screen and (max-width: 1800px){
@@ -287,6 +389,18 @@ color:black;
 
 
 }
+@media screen and (max-width: 1000px){
+.proyects{
+
+
+	height: 2000px;
+}
+
+.projectHover{
+
+	margin-top: 20px;
+}
+}
 .proyectos1{
 
 	margin-top: 50px;
@@ -343,7 +457,85 @@ margin-top: -70px;
 }
 
 
-@media screen and (max-height: 850px){
+
+@media screen and (max-width: 1000px){
+#about-me{
+background: black;
+	height: 250vh;
+
+
+}
+#space2{
+  position: relative;
+  height: 250vh;
+
+  background: #000;
+  background-image: url(http://nickylew.com/testingground/images/clouds.png),
+                    url(http://nickylew.com/testingground/images/twinkling.png),
+                    url(http://nickylew.com/testingground/images/stars.png);
+  animation: spaced 30s linear infinite;
+}
+.diseno{
+height: 220px;
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.diseno img{
+
+	margin-top: 20px;
+}
+.diseno h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-left: 5px;
+}
+.program{
+height: 220px;
+
+	margin-top: 30px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.program img{
+
+	margin-top: 20px;
+}
+.program h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: 50px;
+}
+.ux{
+height: 220px;
+
+	margin-top: 30px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+}
+.ux img{
+
+	margin-top: 0px;
+}
+.ux h3{
+font-family: Julius Sans One;
+font-size: 16px;
+color: white;
+margin-top: 10px;
+
+}
+
+
+}
+
+@media screen and (max-height: 850px) and (min-width: 1000px){
 
 #about-me{
 background: black;
@@ -363,7 +555,7 @@ background: black;
 }
 }
 
-@media screen and (min-height: 850px){
+@media screen and (min-height: 850px) and (min-width: 1000px){
 
 #about-me{
 background: black;
@@ -419,6 +611,14 @@ background-color: white;
   margin-top: 50px;
   height: 100vh;
 }
+
+.formulario{
+
+  margin-top: 30px;
+  margin-left: -150px;
+}
+
+@media screen and (min-width: 1000px){
 .separarb{
 
 border-bottom-style: solid;
@@ -439,14 +639,24 @@ width: 400px;
 font-size: 36px;
 color: black;
 }
-.formulario{
-
-  margin-top: 30px;
-  margin-left: -150px;
 }
 
+@media screen and (max-width: 1000px){
+.separarb{
 
+ visibility: none;
+}
+.separarb2{
+  visibility: none;
 
+}
+.tituloContact h1{
+
+  font-family: Spaceport1i;
+font-size: 36px;
+color: black;
+}
+}
 .email{
 
   margin-top: 10px;
@@ -470,6 +680,9 @@ font-family: PetitaLight;
 font-size: 18px;
 color: black;
 }
+
+@media screen and (min-width: 1000px){
+
 .tituloFormu h2{
 
   list-style-type: none;
@@ -484,6 +697,28 @@ font-family: PetitaLight;
 font-size: 20px;
 color: black;
 }
+}
+
+@media screen and (max-width: 1000px){
+
+.tituloFormu h2{
+
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+margin-left: 150px;
+}
+.tituloFormu p{
+
+  list-style-type: none;
+font-family: PetitaLight;
+font-size: 20px;
+color: black;
+margin-left: 150px;
+}
+}
+
 .infoContacto h2{
 
 list-style-type: none;
@@ -497,12 +732,68 @@ color: black;
 margin-right: -30px;
 }
 
+
+.infoContacto .email{
+  margin-left: 100px;
+}
+
 .infoContacto{
   margin-top: 30px;
   margin-left: 30px;
 }
+@media screen and (min-width: 1000px){
+
+.infoContacto h2{
+
+list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+}
+}
+
+
+@media screen and (max-width: 1000px){
+
+.infoContacto h2{
+
+list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+margin-left: -170px;
+}
+.phone{
+
+	margin-left: -150px;
+}
+.direccion p{
+font-family: PetitaLight;
+font-size: 16px;
+color: black;
+margin-top: 10px;
+margin-left: -90px;
+}
+.infoContacto .emailIcon{
+  margin-left: -150px;
+    
+}
 .infoContacto .email{
-  margin-left: 100px;
+margin-left: -80px;
+}
+.seguir h2{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+margin-left: -170px;
+}
+.linked{
+  margin-left: -55px;
+}
+.behance{
+  margin-left: -55px;
+}
 }
 
 @media screen and (min-width: 1200px){
@@ -520,8 +811,17 @@ color: black;
 margin-top: 10px;
 margin-left: -75px;
 }
+.seguir h2{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
 }
-@media screen and (max-width: 1200px){
+.seguir{
+  margin-left: 30px;
+}
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px){
 .infoContacto .emailIcon{
   margin-left: 0px;
     margin-right: -90px;
@@ -536,6 +836,15 @@ color: black;
 margin-top: 10px;
 margin-left: 10px;
 }
+.seguir h2{
+  list-style-type: none;
+font-family: PetitaBold;
+font-size: 30px;
+color: black;
+}
+.seguir{
+  margin-left: 30px;
+}
 }
 
 
@@ -546,15 +855,7 @@ color: black;
 margin-top: 0px;
 margin-left: 10px;
 }
-.seguir{
-  margin-left: 30px;
-}
-.seguir h2{
-  list-style-type: none;
-font-family: PetitaBold;
-font-size: 30px;
-color: black;
-}
+
 
 
 .photoshop{
@@ -626,7 +927,7 @@ margin-left: 20px;
 
 	#scene{
     height: 300px;
-margin-bottom: -50px;
+margin-bottom: -330px;
     margin-left: -100px;
      }
 }
@@ -679,7 +980,7 @@ color: black;
 }
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px)  {
 .diseno{
 height: 220px;
 	margin-top: 30px;
@@ -740,7 +1041,7 @@ margin-top: 10px;
 
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) and (min-width: 1000px){
 .diseno{
 height: 220px;
 	margin-top: 30px;
