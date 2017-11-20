@@ -439,7 +439,7 @@ color:white;
 
 
 .descripcion{
-
+margin-top: 60px;
 	color:white;
 	font-family: PetitaLight;
 	font-size: 20px;
@@ -447,7 +447,9 @@ color:white;
 }
 
 .linea{
-margin-top: 40px;
+margin-top: -10px;
+margin-bottom: 50px;
+margin-left: -20px;
 
 }
 .hab{
@@ -539,13 +541,13 @@ margin-top: 10px;
 
 #about-me{
 background: black;
-	height: 130vh;
+	height: 160vh;
 
 
 }
 #space2{
   position: relative;
-  height: 130vh;
+  height: 160vh;
 
   background: #000;
   background-image: url(http://nickylew.com/testingground/images/clouds.png),
@@ -559,13 +561,13 @@ background: black;
 
 #about-me{
 background: black;
-	height: 100vh;
+	height: 110vh;
 
 
 }
 #space2{
   position: relative;
-  height: 100vh;
+  height: 110vh;
 
   background: #000;
   background-image: url(http://nickylew.com/testingground/images/clouds.png),
@@ -598,6 +600,72 @@ background: black;
 
 /* ----------------------------------------------*/
 
+
+
+
+.form-control-white {
+    background: transparent;
+    color: black;
+    font-family: PetitaLight;
+}
+
+.form-control-white::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+  font-family: Julius Sans One;
+}
+.form-control-white:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+    opacity:  1;
+    font-family: PetitaLight;
+}
+.form-control-white::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+    opacity:  1;
+    font-family: PetitaLight;
+}
+.form-control-white:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+    font-family: PetitaLight;
+}
+
+input[type="text"], input[type="email"], textarea[type="text"],
+select.form-control {
+  box-shadow:none !important;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+.btn{border-radius: 3px;
+
+font-family: Julius Sans One;
+}
+.btn-o {
+    border: 1px solid #3A4F52;
+    color: #3A4F52;
+}
+.btn-o:hover {
+    background: #303030;
+    color: white;
+}
+.btn.btn-o-white {
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+}
+.btn.btn-o-white:hover {
+    background: #303030;
+    color: #fff;
+}
+
+.formularioPort{
+margin-top: 60px;
+margin-left: -60px;
+
+}
+
 .universe{
 margin-left: -150px;
 margin-bottom: -200px;
@@ -609,7 +677,7 @@ margin-bottom: -200px;
 #contacto{
 background-color: white;
   margin-top: 50px;
-  height: 100vh;
+  height: 300px;
 }
 
 .formulario{
@@ -789,10 +857,10 @@ color: black;
 margin-left: -170px;
 }
 .linked{
-  margin-left: -55px;
+  margin-left: -50px;
 }
 .behance{
-  margin-left: -55px;
+  margin-left: -50px;
 }
 }
 
@@ -816,9 +884,16 @@ margin-left: -75px;
 font-family: PetitaBold;
 font-size: 30px;
 color: black;
+margin-left: 260px;
 }
 .seguir{
   margin-left: 30px;
+}
+.linked{
+  margin-left: 275px;
+}
+.behance{
+  margin-left: 5px;
 }
 }
 @media screen and (max-width: 1200px) and (min-width: 1000px){
@@ -927,7 +1002,7 @@ margin-left: 20px;
 
 	#scene{
     height: 300px;
-margin-bottom: -330px;
+margin-bottom: -230px;
     margin-left: -100px;
      }
 }
