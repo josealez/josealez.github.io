@@ -354,8 +354,8 @@ color:black;
 
 color:black;
 	font-family: Spaceport1i;
-	font-size: 75px;
-	margin-top: 10px;
+	font-size: 50px;
+	margin-top: 20px;
 
 }
 
@@ -662,7 +662,7 @@ font-family: Julius Sans One;
 
 .formularioPort{
 margin-top: 60px;
-margin-left: -60px;
+
 
 }
 
@@ -704,8 +704,10 @@ width: 400px;
 .tituloContact h1{
 
   font-family: Spaceport1i;
-font-size: 36px;
+font-size: 50px;
 color: black;
+margin-top: -10px;
+margin-left: 70px;
 }
 }
 
@@ -854,7 +856,7 @@ margin-left: -80px;
 font-family: PetitaBold;
 font-size: 30px;
 color: black;
-margin-left: -170px;
+margin-left: -270px;
 }
 .linked{
   margin-left: -50px;
@@ -884,13 +886,13 @@ margin-left: -75px;
 font-family: PetitaBold;
 font-size: 30px;
 color: black;
-margin-left: 260px;
+margin-left: 300px;
 }
 .seguir{
   margin-left: 30px;
 }
 .linked{
-  margin-left: 275px;
+  margin-left: 315px;
 }
 .behance{
   margin-left: 5px;
